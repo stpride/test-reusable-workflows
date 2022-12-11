@@ -6,8 +6,6 @@ on:
 
 jobs:
   test1:
-    runs-on: ubuntu-latest
-    name: test1
     uses: ./.github/workflows/test1.yml
     with:
       config-path: .github/labeler.yml
