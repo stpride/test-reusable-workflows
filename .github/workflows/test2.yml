@@ -14,6 +14,3 @@ jobs:
     secrets:
       envPAT: ${{ secrets.envPAT }}
 
-    steps:
-      - name: Show an echo output
-        run: echo "Testing ... 1"
